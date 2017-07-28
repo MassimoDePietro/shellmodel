@@ -33,6 +33,12 @@ There are command line arguments for specifying the name of the output
 files. The output files will be created in the execution directory. 
 
 
+# TODO
+- Add the code.
+- Complete the documentation.
+- Check correctness.
+
+
 # License
 This code is free software: you can redistribute it and/or modify it 
 under the terms of the GNU General Public License as published by the 
