@@ -1,10 +1,10 @@
 # Description
 This scientific code solves the equations of motion for the "SABRA" 
-shell models (see https://doi.org/10.1103/PhysRevE.58.1811).  
+shell model (see https://doi.org/10.1103/PhysRevE.58.1811).  
 
 
 # Dependencies
-Cmake and a c++11 compiler.  
+None. Just a compiler supporting c++11. Uses Cmake to generate makefiles.
 
 
 # How to compile
@@ -27,16 +27,14 @@ passed as command line arguments.
 The simulation, if not continuing from an old velocity field, 
 randomizes the phases of the initial condition. You may want to control 
 the seed used for the random number generator. One of the command line 
-arguments will take care of this.
+arguments will take care of that.
 
 There are command line arguments for specifying the name of the output 
 files. The output files will be created in the execution directory. 
 
 
 # TODO
-- Add the code.
 - Complete the documentation.
-- Check correctness.
 
 
 # License
