@@ -32,7 +32,7 @@
 /// \brief This file contains the definition of the Observables class.
 
 
-#include "observables.hpp"
+#include "Observables.hpp"
 #include "check.hpp"
 
 #include <cassert>
