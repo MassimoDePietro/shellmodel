@@ -141,7 +141,7 @@ public:
 	void nlt(const std::vector<std::complex<double>>& u, const std::vector<double>& k, std::vector<std::complex<double>>& du);
 
 	/// Right hand side of the differential equation: nlt + dissipation + forcing
-	void Solver::rhs(const std::vector<std::complex<double>>& u, const std::vector<double>& k, const std::vector<double>& k2, std::complex<double> F0, std::complex<double> F1, double nu, std::vector<std::complex<double>>& du);
+	void rhs(const std::vector<std::complex<double>>& u, const std::vector<double>& k, const std::vector<double>& k2, std::complex<double> F0, std::complex<double> F1, double nu, std::vector<std::complex<double>>& du);
 
     void advance_one_step_rk4();
 
